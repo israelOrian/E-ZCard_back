@@ -4,7 +4,7 @@ const app = express();
 const port = 3001;
 
 app.get('/', (req, res) => {
-    res.json({ msg: 'express work' })
+    res.json({ msg: 'express work lalala' })
 });
 
 const server = http.createServer(app);
